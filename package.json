@@ -1,0 +1,25 @@
+{
+  "name": "elesky",
+  "version": "1.0.0",
+  "description": "BluSky Electron ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siraprem/EleSky.git"
+  },
+  "keywords": [
+    "BlueSky"
+  ],
+  "author": "Siraprem",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/siraprem/EleSky/issues"
+  },
+  "homepage": "https://github.com/siraprem/EleSky#readme",
+  "devDependencies": {
+    "electron": "^33.0.2"
+  }
+}

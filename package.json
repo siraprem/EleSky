@@ -23,6 +23,7 @@
   "homepage": "https://github.com/siraprem/EleSky#readme",
   "devDependencies": {
     "electron": "^33.0.2"
+    
   },
   "dependencies": {
     "electron-store": "^10.0.0"

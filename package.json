@@ -2,8 +2,10 @@
   "name": "elesky",
   "version": "1.0.0",
   "description": "BluSky Electron ",
-  "main": "index.js",
+  "main": "main.js",
+  "type": "module",
   "scripts": {
+    "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,5 +23,8 @@
   "homepage": "https://github.com/siraprem/EleSky#readme",
   "devDependencies": {
     "electron": "^33.0.2"
+  },
+  "dependencies": {
+    "electron-store": "^10.0.0"
   }
 }

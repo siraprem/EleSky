@@ -19,10 +19,3 @@
 	<img src="https://img.shields.io/badge/Yarn-2C8EBB.svg?style=plastic&logo=Yarn&logoColor=white" alt="Yarn">
 </p>
 <br>
-
-
-##  Acknowledgments
-
-- List any resources, contributors, inspiration, etc. here.
-
----

@@ -1,9 +1,17 @@
 // Packages
 import Store from 'electron-store';
-import { app, BrowserWindow, globalShortcut } from 'electron';
+import {  Notification, app, BrowserWindow, globalShortcut } from 'electron';
 import path from 'path';
 
 path.join(app.getPath('userData'), 'config.json');
+
+const NOTIFICATION_TITLE = 'BlueSky';
+const NOTIFICATION_BODY = 'Electron';
+
+new Notification({
+  title: NOTIFICATION_TITLE,
+  body: NOTIFICATION_BODY,
+}).show();
 
 const store = new Store({
   configFileMode: 0o755,

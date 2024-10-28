@@ -1,6 +1,6 @@
 // Packages
 import Store from 'electron-store';
-import { app, BrowserWindow } from 'electron';
+import { app, BrowserWindow, globalShortcut } from 'electron';
 import path from 'path';
 
 path.join(app.getPath('userData'), 'config.json');
@@ -35,6 +35,10 @@ app.on('ready', async () => {
     store.set('y', y);
     store.set('width', width);
     store.set('height', height);
+  });
+
+  globalShortcut.register('F5', () => {
+    mainWindow.reload();
   });
 });
 

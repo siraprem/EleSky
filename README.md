@@ -20,6 +20,7 @@
 </div>
 <br clear="right">
 
+# For Windows and Linux
 
 ## 📍 Overview
 
@@ -27,7 +28,9 @@ BlueSky using electron framework, this is my first app! be gentle! Allow to log 
 
 ## ⚙️ How to use?
 
-Download [Lastest](https://github.com/siraprem/EleSky/releases/latest) zip; Extract and open EleSky executable
+Download depending on linux or windows [Lastest](https://github.com/siraprem/EleSky/releases/latest) zip; Extract and open EleSky executable
+
+Also can use the windows installer
 
 ## 🎗 License
 

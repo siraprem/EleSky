@@ -3,7 +3,7 @@
 </p>
 <p align="center"><h1 align="center">ELESKY</h1></p>
 <p align="center">
-	<em><code>❯ REPLACE-ME</code></em>
+	<em><code>❯ BlueSky on Electron framework!</code></em>
 </p>
 <p align="center">
 	<img src="https://img.shields.io/github/license/siraprem/EleSky?style=plastic&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license">

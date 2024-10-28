@@ -1,21 +1,34 @@
-<p align="center">
-    <img src="elesky.svg" align="center" width="30%">
+<div align="left" style="position: relative;">
+<img src="elesky.svg" align="right" width="30%" style="margin: -20px 0 0 20px;">
+<h1>ELESKY</h1>
+<p align="left">
+	<em><code>❯ BlueSky On Electron!</code></em>
 </p>
-<p align="center"><h1 align="center">ELESKY</h1></p>
-<p align="center">
-	<em><code>❯ REPLACE-ME</code></em>
+<p align="left">
+	<img src="https://img.shields.io/github/license/siraprem/EleSky?style=for-the-badge&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license">
+	<img src="https://img.shields.io/github/last-commit/siraprem/EleSky?style=for-the-badge&logo=git&logoColor=white&color=0080ff" alt="last-commit">
+	<img src="https://img.shields.io/github/languages/top/siraprem/EleSky?style=for-the-badge&color=0080ff" alt="repo-top-language">
+	<img src="https://img.shields.io/github/languages/count/siraprem/EleSky?style=for-the-badge&color=0080ff" alt="repo-language-count">
 </p>
-<p align="center">
-	<img src="https://img.shields.io/github/license/siraprem/EleSky?style=plastic&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license">
-	<img src="https://img.shields.io/github/last-commit/siraprem/EleSky?style=plastic&logo=git&logoColor=white&color=0080ff" alt="last-commit">
-	<img src="https://img.shields.io/github/languages/top/siraprem/EleSky?style=plastic&color=0080ff" alt="repo-top-language">
-	<img src="https://img.shields.io/github/languages/count/siraprem/EleSky?style=plastic&color=0080ff" alt="repo-language-count">
+<p align="left">Built with the tools and technologies:</p>
+<p align="left">
+	<img src="https://img.shields.io/badge/npm-CB3837.svg?style=for-the-badge&logo=npm&logoColor=white" alt="npm">
+	<img src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black" alt="JavaScript">
+	<img src="https://img.shields.io/badge/Electron-47848F.svg?style=for-the-badge&logo=Electron&logoColor=white" alt="Electron">
+	<img src="https://img.shields.io/badge/Yarn-2C8EBB.svg?style=for-the-badge&logo=Yarn&logoColor=white" alt="Yarn">
 </p>
-<p align="center">Built with the tools and technologies:</p>
-<p align="center">
-	<img src="https://img.shields.io/badge/npm-CB3837.svg?style=plastic&logo=npm&logoColor=white" alt="npm">
-	<img src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=plastic&logo=JavaScript&logoColor=black" alt="JavaScript">
-	<img src="https://img.shields.io/badge/Electron-47848F.svg?style=plastic&logo=Electron&logoColor=white" alt="Electron">
-	<img src="https://img.shields.io/badge/Yarn-2C8EBB.svg?style=plastic&logo=Yarn&logoColor=white" alt="Yarn">
-</p>
-<br>
+</div>
+<br clear="right">
+
+
+## 📍 Overview
+
+BlueSky using electron framework, this is my first app! be gentle! Allow to log in and use bluesky as usual!
+
+## ⚙️ How to use?
+
+Download [Lastest](https://github.com/siraprem/EleSky/releases/latest) zip; Extract and open EleSky executable
+
+## 🎗 License
+
+This project is protected under the [MIT License](https://choosealicense.com/licenses/mit/) License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.

@@ -31,7 +31,7 @@ app.on('ready', async () => {
     y: store.get('y'),
     width: store.get('width'),
     height: store.get('height'),
-    icon: path.join(__dirname, 'elesky.svg'), // Set the app icon
+    icon: path.join(__dirname, '/images/icon.png'), // Set the app icon
   });
 
   const url = 'https://bsky.app/';

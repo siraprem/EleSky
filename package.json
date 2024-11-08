@@ -1,6 +1,6 @@
 {
   "name": "elesky",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "BluSky Electron",
   "main": "main.js",
   "type": "module",
@@ -19,6 +19,7 @@
   ],
   "author": "Siraprem",
   "license": "ISC",
+  "private": "true",
   "bugs": {
     "url": "https://github.com/siraprem/EleSky/issues"
   },
@@ -30,7 +31,7 @@
     "@electron-forge/plugin-auto-unpack-natives": "^7.5.0",
     "@electron-forge/plugin-fuses": "^7.5.0",
     "@electron/fuses": "^1.8.0",
-    "electron": "^33.0.2"
+    "electron": "^33.1.0"
   },
   "dependencies": {
     "electron-squirrel-startup": "^1.0.1",

@@ -2,6 +2,7 @@
 import Store from 'electron-store';
 import { app, BrowserWindow, globalShortcut, Menu, MenuItem } from 'electron';
 import path from 'path';
+import contextMenu from 'electron-context-menu';
 import { fileURLToPath } from 'url';
 import { dirname } from 'path';
 
@@ -50,31 +51,10 @@ app.on('ready', async () => {
     mainWindow.reload();
   });
 
-  mainWindow.webContents.on('context-menu', (event, params) => {
-    const menu = new Menu();
-
-    // Add each spelling suggestion
-    for (const suggestion of params.dictionarySuggestions) {
-      menu.append(new MenuItem({
-        label: suggestion,
-        click: () => mainWindow.webContents.replaceMisspelling(suggestion)
-      }));
-    }
-
-    // Allow users to add the misspelled word to the dictionary
-    if (params.misspelledWord) {
-      menu.append(
-        new MenuItem({
-          label: 'Add to dictionary',
-          click: () => mainWindow.webContents.session.addWordToSpellCheckerDictionary(params.misspelledWord)
-        })
-      );
-    }
-
-    menu.popup();
-  });
-});
+  contextMenu({
+    showSaveImageAs: true, 
+  })
 
 // Quit the app once all windows are closed
 app.on('window-all-closed', app.quit);
-
+});
